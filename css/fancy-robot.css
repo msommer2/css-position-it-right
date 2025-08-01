@@ -1,38 +1,130 @@
 .robot-container {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
 }
 
 .robot-face-shape {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    background: linear-gradient(to bottom right, lightblue, lightgrey, darkgrey);
+    border: 3px solid lightblue;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .robot-eye-left {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 15%;
+    height: 15%;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .robot-eye-right {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    width: 15%;
+    height: 5%;
+    background-color: rgb(8, 8, 8);
 }
 
 .robot-ear-left {
+    position: sticky;
+    top: 50%;
+    left: 10%;
+    width: 10%;
+    shape-rendering: optimizeSpeed;
+    height: 20%;
+    background-color: rgb(52, 106, 138);
+    border-radius: 50%;
+    transform: translateY(-50%);
 }
 
 .robot-ear-right {
+    position: sticky;
+    top: 50%;
+    left: 80%;
+    width: 10%;
+    height: 20%;
+    background-color: rgb(52, 106, 138);
+    border-radius: 50%;
+    transform: translateY(-50%);
 }
 
 .robot-nose {
+    position: absolute;
+    top: 40%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid rgb(163, 31, 31);
+    border-top: 20px solid transparent;
+    background-color: rgb(107, 102, 102);
 }
 
 .robot-teeth {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 20%;
+    height: 10%;
+    background-color: rgb(163, 31, 31);
+    border-radius: 50px;
+    transform: translate(-50%, -50%);  
 }
 
 .robot-tooth {
+    position: absolute;
+    left: 30%;
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .robot-hair-style {
+    justify-content: center;
 }
 
 .robot-hair-one {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 2%;
+    height: 11%;
+    background-color: rgba(85, 85, 85, 0.274);
+    border-radius: 10%;
+    transform: translateX(-50%);
 }
 
 .robot-hair-two {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 2%;
+    height: 11%;
+    background-color: rgba(85, 85, 85, 0.274);
+    border-radius: 10%;
+    transform: translateX(-50%);
 }
 
 .robot-hair-three {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    width: 2%;
+    height: 11%;
+    background-color: rgba(85, 85, 85, 0.274);
+    border-radius: 10%;
+    transform: translateX(-50%);
 }
