@@ -2,8 +2,10 @@
   background-color: #e2e2e2;
   padding: 30px;
   margin-top: 60px;
+  position: fixed;
   align-items: right;
   width: 100%;
+  z-index: 10;
 }
 
 .legal-header h1 {
@@ -20,6 +22,7 @@ main {
   max-width: 900px;
   margin: 0 auto;
   padding-bottom: 10%;
+  padding-top: 150px;
 }
 
 section {
@@ -39,7 +42,7 @@ section {
   height: max-content;
   padding: 10px 16px;
   position: sticky;
-  top: 10%;
+  top: 160px;
 }
 
 .document-content {
